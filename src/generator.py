@@ -1,28 +1,16 @@
 import pandas as pd
+from src.config_loader import load_formats_config
 
 
 def generate_sideboard_matrix(deck: dict, format_name: str) -> pd.DataFrame:
     '''
     fonction qui genere une matrice de sideboard a partir d'un decklist
     '''
-    # MVP : archétypes hardcodés (on fera config après)
-    archetypes_by_format = {
-        "modern": [
-            "Boros Energy",
-            "Rakdos Scam",
-            "Amulet Titan",
-            "Living End",
-            "Hammer Time"
-        ],
-        "legacy": [
-            "Delver",
-            "Reanimator",
-            "Storm",
-            "Death & Taxes"
-        ]
-    }
 
-    archetypes = archetypes_by_format.get(format_name.lower(), [])
+    archetypes_by_format = load_formats_config().get(format_name.lower(), [])
+
+    if not archetypes_by_format:
+        raise ValueError(f"Format '{format_name}' not found in configuration.")
 
     rows = []
 
@@ -31,7 +19,7 @@ def generate_sideboard_matrix(deck: dict, format_name: str) -> pd.DataFrame:
             "Card": f"{card['quantity']} {card['name']}"
         }
 
-        for archetype in archetypes:
+        for archetype in archetypes_by_format:
             row[archetype] = ""
         
         rows.append(row)
@@ -43,7 +31,7 @@ def generate_sideboard_matrix(deck: dict, format_name: str) -> pd.DataFrame:
             "Card": f"{card['quantity']} {card['name']}"
         }
 
-        for archetype in archetypes:
+        for archetype in archetypes_by_format:
             row[archetype] = ""
         
         rows.append(row)
@@ -51,7 +39,7 @@ def generate_sideboard_matrix(deck: dict, format_name: str) -> pd.DataFrame:
     df = pd.DataFrame(rows)
 
     # ordre des colonnes
-    cols = ["Card"] + archetypes
+    cols = ["Card"] + archetypes_by_format
     df = df[cols]
 
     return df
