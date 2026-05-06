@@ -1,7 +1,27 @@
 {
   "modern": [
-    "Boros Energy",
-    "Rakdos Scam",
-    "Amulet Titan"
-  ]
+        "Boros Energy",
+        "Affinity",
+        "Izzet Prowess",
+        "Jeskai Blink",
+        "5c Zoo",
+        "Esper Goryo",
+        "Ruby Storm",
+        "Amulet Titan",
+        "Living End",
+        "Elradazi Ramp",
+        "Urza Tron",
+        "Simic Ritual",
+        "Dimir control",
+        "UW control",
+        "Mono U Belcher",
+        "Broodscale"
+
+    ],
+    "legacy": [
+        "Delver",
+        "Reanimator",
+        "Storm",
+        "Death & Taxes"
+    ]
 }
