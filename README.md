@@ -95,6 +95,6 @@ MIT
 
 ## 👤 Auteur
 
-Ton Nom
+Gaétan Cece
 [[LinkedIn](https://www.linkedin.com/in/ga%C3%A9tan-cece-440129215/)]
 [[Portfolio](https://github.com/croissancecomparee)]
