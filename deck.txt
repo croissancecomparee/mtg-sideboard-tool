@@ -1,7 +1,31 @@
-4 Lightning Bolt
-2 Counterspell
-1 Kaito Shizuki
+1 Beyeen Veil
+4 Disrupting Shoal
+3 Fallaji Archaeologist
+3 Flare of Denial
+1 Force of Negation
+4 Goblin Charbelcher
+4 Hydroelectric Specimen
+1 Into the Flood Maw
+3 Jwari Disruption
+4 Lotus Bloom
+4 Sea Gate Restoration
+4 Sink into Stupor
+2 Spell Snare
+2 Stern Scolding
+1 Strix Serenade
+4 Suppression Ray
+4 Tameshi, Reality Architect
+4 Thundertrap Trainer
+3 Waterlogged Teachings
+4 Whir of Invention
 
-Sideboard
-2 Pyroblast
-1 Toxic Deluge
+SIDEBOARD:
+3 Consign to Memory
+2 Flusterstorm
+2 Harbinger of the Seas
+1 Island
+2 Mystical Dispute
+1 Stock Up
+1 Tezzeret the Seeker
+1 Tormod's Crypt
+2 Unable to Scream

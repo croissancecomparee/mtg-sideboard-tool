@@ -21,6 +21,9 @@ def parse_decklist(file_path: str) -> dict:
             if re.match(r'^(sideboard|mainboard)$', line, re.IGNORECASE):
                 current_section = line.lower()
                 continue
+            if re.match(r'^(sideboard:|mainboard:)$', line, re.IGNORECASE):
+                current_section = line.lower()
+                continue
 
             match = re.match(r"(\d+)\s+(.+)", line)
 
