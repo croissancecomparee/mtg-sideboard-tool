@@ -1,7 +1,33 @@
-4 Lightning Bolt
-2 Counterspell
-1 Kaito Shizuki
+4 Boomerang Basics
+4 Burst Lightning
+2 Colorstorm Stallion
+1 Drake Hatcher
+2 Eddymurk Crab
+4 Flow State
+1 Impractical Joke
+1 Into the Flood Maw
+7 Island
+2 Multiversal Passage
+4 Opt
+4 Riverpyre Verge
+2 Secret Identity
+4 Sleight of Hand
+4 Slickshot Show-Off
+1 Spell Pierce
+4 Spirebluff Canal
+4 Steam Vents
+4 Stormchaser's Talent
+1 Vibrant Outburst
 
-Sideboard
-2 Pyroblast
-1 Toxic Deluge
+SIDEBOARD:
+2 Annul
+1 Disdainful Stroke
+2 Get Out
+1 Ral, Crackling Wit
+1 Roaring Furnace/Steaming Sauna
+2 Sear
+1 Slagstorm
+2 Soul-Guide Lantern
+1 Spell Pierce
+1 Stock Up
+1 Wan Shi Tong, Librarian
