@@ -18,8 +18,13 @@ def main():
         parser = argparse.ArgumentParser(description="MTG Sideboard Matrix Generator")
         parser.add_argument("--format", type=str, required=True, help="Deck Format (e.g., Standard, Modern, Legacy)")
         parser.add_argument("--decklist", type=str, default="deck.txt", help="fichier decklist (format texte)")
+        parser.add_argument("--list-formats", action="store_true", help="Lister les formats disponibles et leurs archétypes")
 
         args = parser.parse_args()
+
+        if args.list_formats:
+            list_formats()
+            exit(0)
 
         print(f"📦 Format choisi : {args.format}")
         print(f"📄 Deck input : {args.decklist}")
