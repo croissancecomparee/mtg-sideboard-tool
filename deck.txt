@@ -1,31 +1,33 @@
-1 Beyeen Veil
-4 Disrupting Shoal
-3 Fallaji Archaeologist
-3 Flare of Denial
-1 Force of Negation
-4 Goblin Charbelcher
-4 Hydroelectric Specimen
+4 Boomerang Basics
+4 Burst Lightning
+2 Colorstorm Stallion
+1 Drake Hatcher
+2 Eddymurk Crab
+4 Flow State
+1 Impractical Joke
 1 Into the Flood Maw
-3 Jwari Disruption
-4 Lotus Bloom
-4 Sea Gate Restoration
-4 Sink into Stupor
-2 Spell Snare
-2 Stern Scolding
-1 Strix Serenade
-4 Suppression Ray
-4 Tameshi, Reality Architect
-4 Thundertrap Trainer
-3 Waterlogged Teachings
-4 Whir of Invention
+7 Island
+2 Multiversal Passage
+4 Opt
+4 Riverpyre Verge
+2 Secret Identity
+4 Sleight of Hand
+4 Slickshot Show-Off
+1 Spell Pierce
+4 Spirebluff Canal
+4 Steam Vents
+4 Stormchaser's Talent
+1 Vibrant Outburst
 
 SIDEBOARD:
-3 Consign to Memory
-2 Flusterstorm
-2 Harbinger of the Seas
-1 Island
-2 Mystical Dispute
+2 Annul
+1 Disdainful Stroke
+2 Get Out
+1 Ral, Crackling Wit
+1 Roaring Furnace/Steaming Sauna
+2 Sear
+1 Slagstorm
+2 Soul-Guide Lantern
+1 Spell Pierce
 1 Stock Up
-1 Tezzeret the Seeker
-1 Tormod's Crypt
-2 Unable to Scream
+1 Wan Shi Tong, Librarian
