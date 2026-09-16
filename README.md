@@ -4,12 +4,49 @@ Un outil Python pour automatiser la création de plans de sideboard pour les jou
 
 À partir d’une decklist texte (format Scryfall ou Moxfield), ce script génère un fichier CSV/Excel prérempli permettant de construire facilement des plans de sideboard par archétype.
 
+### Mvp 2:
+en plus, avoir un support utilisable par d'autres utilisateurs sans utiliser des lignes de commandes soit via api, appli web ou exécutable (à voir ?)
+
 ## 🚀 Fonctionnalités (MVP)
 📥 Parse une decklist .txt
 🧱 Génère un tableau de sideboard prêt à remplir
 🧠 Archétypes préconfigurés par format (Modern, Pioneer, etc.)
 📊 Export en .csv ou .xlsx
 ⚡ CLI simple pour utilisation rapide
+📊 Ajout d'une interface web
+
+## 🔮 Roadmap
+
+### MVP 1 — CLI tool ✅
+
+- [x] Parse text decklists
+- [x] Load archetypes from configuration
+- [x] Generate sideboard planning matrix
+- [x] Export Excel
+- [x] Export text sideboard guide
+- [x] CLI format selection
+- [x] CLI validation
+
+### MVP 2 — Web application 🚧
+
+- [ ] Refactor the core into a reusable Python module
+- [ ] Add FastAPI backend
+- [ ] Add HTML interface
+- [ ] Allow users to paste decklists
+- [ ] Select a Magic format from the interface
+- [ ] Generate sideboard plans from the browser
+- [ ] Download Excel files
+- [ ] Download text sideboard guides
+
+### Future
+
+- [ ] Editable sideboard matrix in the browser
+- [ ] Scryfall API integration
+- [ ] Card name validation and auto-completion
+- [ ] Google Sheets integration
+- [ ] Save sideboard plans
+- [ ] User accounts
+
 ## 🖼️ Exemple
 Input (decklist)
 4 Lightning Bolt
@@ -44,6 +81,18 @@ Options :
 
 ## 📁 Structure du projet
 project/
+├── app/                    # Web application
+│   ├── main.py             # FastAPI application
+│   ├── templates/          # HTML templates
+│   └── static/             # CSS / JavaScript
+│
+├── src/                    # Core application logic
+│   ├── parser.py
+│   ├── generator.py
+│   ├── exporter.py
+│   ├── text_exporter.py
+│   └── config_loader.py
+│
 ├── main.py
 ├── parser.py
 ├── generator.py
@@ -51,6 +100,10 @@ project/
 ├── config/
 │   └── formats.json
 └── tests/
+├── requirements.txt
+├── pyproject.toml
+├── README.md
+└── .gitignore
 
 ## ⚙️ Configuration
 
